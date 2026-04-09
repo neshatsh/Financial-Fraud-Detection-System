@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (too large for GitHub)
+*.csv
+*.parquet
+*.pqt
+*.pkl
+*.pt
+*.h5
+*.hdf5
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Model artifacts
+autoencoder_weights.pt
+preprocessing_artifacts.pkl
+model_artifacts.pkl
+ae_results.pkl
+
+# Plots / outputs
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Kaggle
+kaggle.json
